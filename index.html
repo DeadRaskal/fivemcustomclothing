@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom GTA FiveM Clothing Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Custom GTA FiveM Clothing Order</h1>
+    </header>
+    
+    <section>
+        <h2>Order Form</h2>
+        <form id="orderForm" action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="clothing">Clothing Description:</label><br>
+            <textarea id="clothing" name="clothing" rows="4" cols="50" required></textarea><br><br>
+            
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="Cash App">Cash App</option>
+            </select><br><br>
+            
+            <input type="submit" value="Submit Order">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Custom GTA FiveM Clothing Order</p>
+    </footer>
+</body>
+</html>
